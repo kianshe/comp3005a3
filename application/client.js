@@ -24,13 +24,6 @@ window.onload = function () {
     alert("output get to console");
   }
 
-  // async function get() {
-  //   const response = await post("/get", {})
-  //     .then((res) => res.json())
-  //     .then((rows) => rows);
-  //   console.log(response);
-  // }
-
   function add() {
     var addfirst = document.getElementById("addfirst");
     addfirst = addfirst.value;
