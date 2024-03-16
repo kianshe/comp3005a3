@@ -69,7 +69,7 @@ window.onload = function () {
     deleteid = deleteid.value;
 
     post("/delete", { id: deleteid });
-    alert("update request sent");
+    alert("delete request sent");
   }
 
   window.post = function (url, data) {
